@@ -1,0 +1,154 @@
+{
+  "users": [
+    {
+      "personalIdentification": {
+        "customerIdentification": "12.345.678-9",
+        "customerFirstName": "Juan",
+        "customerMiddleName": "Carlos",
+        "customerLastName": "Rodríguez",
+        "customerSecondLastName": "García",
+        "customerInitialDate": "2020-01-15",
+        "additionalInformation": {
+          "customerStreetName": "Av. Libertador",
+          "customerBuildingNumber": "1234",
+          "customerDistrictName": "Las Condes",
+          "customerCountrySubDivisionMajorName": "Santiago",
+          "customerEmail": "juan.rodriguez@email.com",
+          "customerPhoneNumber": "+56912345678"
+        }
+      },
+      "accounts": {
+        "accountInformation": {
+          "productIdentification": "PROD123",
+          "customerIdentification": "12.345.678-9",
+          "productType": "SVGS",
+          "commercialCategory": "Retail",
+          "contractDate": "2024-11-07"
+        },
+        "balances": {
+          "balanceAmount": 1500000,
+          "currencyCode": "CLP"
+        },
+        "overdraftLimits": {
+          "creditLineUsedAmount": 300000,
+          "creditLineTotalAmount": 2000000,
+          "creditLineAvailableAmount": 1700000,
+          "endOfMonthCreditLineUsedAmount": 250000,
+          "endOfMonthCreditLineTotalAmount": 2000000,
+          "endOfMonthCreditLineAvailableAmount": 1750000
+        },
+        "transactions": {
+          "operationDate": "2024-11-07T14:30:00",
+          "accountingDate": "2024-11-07",
+          "operationType": "CASH",
+          "operationAmount": 50000,
+          "operationCurrencyCode": "CLP",
+          "partyType": "INDV",
+          "counterpartyIdentification": "22.222.222-2",
+          "counterpartyName": "Juan Pérez",
+          "operationCategory": "Depósito en efectivo"
+        }
+      }
+    },
+    {
+      "personalIdentification": {
+        "customerIdentification": "14.567.890-1",
+        "customerFirstName": "María",
+        "customerMiddleName": "Elena",
+        "customerLastName": "López",
+        "customerSecondLastName": "Vargas",
+        "customerInitialDate": "2019-06-20",
+        "additionalInformation": {
+          "customerStreetName": "Av. Providencia",
+          "customerBuildingNumber": "456",
+          "customerDistrictName": "Providencia",
+          "customerCountrySubDivisionMajorName": "Santiago",
+          "customerEmail": "maria.lopez@email.com",
+          "customerPhoneNumber": "+56987654321"
+        }
+      },
+      "accounts": {
+        "accountInformation": {
+          "productIdentification": "PROD321",
+          "customerIdentification": "14.567.890-1",
+          "productType": "COMM",
+          "commercialCategory": "Business",
+          "contractDate": "2024-10-15"
+        },
+        "balances": {
+          "balanceAmount": 15000000,
+          "currencyCode": "CLP"
+        },
+        "overdraftLimits": {
+          "creditLineUsedAmount": 1000000,
+          "creditLineTotalAmount": 5000000,
+          "creditLineAvailableAmount": 4000000,
+          "endOfMonthCreditLineUsedAmount": 800000,
+          "endOfMonthCreditLineTotalAmount": 5000000,
+          "endOfMonthCreditLineAvailableAmount": 4200000
+        },
+        "transactions": {
+          "operationDate": "2024-11-07T10:15:00",
+          "accountingDate": "2024-11-07",
+          "operationType": "XFER",
+          "operationAmount": 2500000,
+          "operationCurrencyCode": "CLP",
+          "partyType": "ORGN",
+          "counterpartyIdentification": "33.333.333-3",
+          "counterpartyName": "Empresa ABC",
+          "operationCategory": "Transferencia comercial"
+        }
+      }
+    },
+    {
+      "personalIdentification": {
+        "customerIdentification": "16.789.012-3",
+        "customerFirstName": "Pedro",
+        "customerMiddleName": "Antonio",
+        "customerLastName": "Sánchez",
+        "customerSecondLastName": "Torres",
+        "customerInitialDate": "2021-03-10",
+        "additionalInformation": {
+          "customerStreetName": "Calle Los Pinos",
+          "customerBuildingNumber": "789",
+          "customerDistrictName": "Ñuñoa",
+          "customerCountrySubDivisionMajorName": "Santiago",
+          "customerEmail": "pedro.sanchez@email.com",
+          "customerPhoneNumber": "+56999666555"
+        }
+      },
+      "accounts": {
+        "accountInformation": {
+          "productIdentification": "PROD456",
+          "customerIdentification": "16.789.012-3",
+          "productType": "CARD",
+          "commercialCategory": "Retail",
+          "contractDate": "2024-09-01"
+        },
+        "balances": {
+          "balanceAmount": 350000,
+          "currencyCode": "CLP"
+        },
+        "overdraftLimits": {
+          "creditLineUsedAmount": 150000,
+          "creditLineTotalAmount": 500000,
+          "creditLineAvailableAmount": 350000,
+          "endOfMonthCreditLineUsedAmount": 180000,
+          "endOfMonthCreditLineTotalAmount": 500000,
+          "endOfMonthCreditLineAvailableAmount": 320000
+        },
+        "transactions": {
+          "operationDate": "2024-11-07T16:45:00",
+          "accountingDate": "2024-11-07",
+          "operationType": "CHRG",
+          "operationAmount": 75000,
+          "operationCurrencyCode": "CLP",
+          "partyType": "ORGN",
+          "counterpartyIdentification": "44.444.444-4",
+          "counterpartyName": "Supermercado XYZ",
+          "operationCategory": "Cargo comercial"
+        }
+      }
+    }
+  ]
+}

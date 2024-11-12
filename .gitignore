@@ -1,0 +1,64 @@
+# Binarios y ejecutables
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+main
+mock-server
+
+# Archivos de prueba
+*.test
+*.tmp
+
+# Archivos de cobertura
+*.out
+coverage.html
+
+# Archivos de dependencias
+vendor/
+
+# IDEs y editores
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de entorno y configuración
+.env
+*.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Archivos de log
+*.log
+logs/
+
+# Directorios de construcción
+bin/
+build/
+dist/
+
+# Archivos temporales
+tmp/
+temp/
+
+# Archivos de AWS
+.aws/
+
+# Archivos de caché de Go
+go.work
+go.work.sum
+
+# Directorios de debug
+debug/
+
+# custom scripts
+run-container.sh
